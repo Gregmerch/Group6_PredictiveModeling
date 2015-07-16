@@ -1,6 +1,5 @@
 library(MASS) ## a library of example datasets
 library(class) ## a library with lots of classification tools
-install.packages("kknn")
 library(kknn) ## knn library
 
 
@@ -285,7 +284,7 @@ lines(test[,1],near$prob[,2],col=1,lwd=2,lty=2)
 ##########################
 #### California knn      #
 ##########################
-
+install.packages("maps")
 library(maps)
 
 
